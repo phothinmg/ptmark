@@ -1,0 +1,35 @@
+{
+  "name": "ptmark",
+  "version": "0.1.0",
+  "description": "Simplified markdown syntax into HTML",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/commonjs/index.cjs"
+    }
+  },
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "./build.js",
+    "check": "biome check --write src && biome format --write src"
+  },
+  "keywords": [
+    "Markdown",
+    "HTML"
+  ],
+  "author": "Pho Thin Mg",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.13.11",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "lwe8-build": "^0.1.7",
+    "shiki": "^3.2.1"
+  }
+}
