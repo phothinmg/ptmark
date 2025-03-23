@@ -31,5 +31,12 @@
   "dependencies": {
     "lwe8-build": "^0.1.7",
     "shiki": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phothinmg/ptmark.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phothinmg/ptmark/issues"
   }
 }
