@@ -1,8 +1,22 @@
-# Ptmark converts a string written in a simplified markdown syntax into HTML.
+# Ptmark 
+
+## Overview
+
+Converts a string written in a simplified markdown syntax into HTML.
 
 ## Install
 
+```bash
+npm i ptmark
+```
 
+```bash
+pnpm i ptmark
+```
+
+```bash
+yarn add ptmark
+```
 
 ## Resources
 
